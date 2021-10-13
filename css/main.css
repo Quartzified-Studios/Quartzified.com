@@ -1,0 +1,142 @@
+/* Import Font CSS */
+@import "fonts.css";
+
+/* Update All */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Body Basics */
+
+body {
+    font-family: "Q-Regular";
+    padding: 12px;
+    color: white;
+
+    background-color: black;
+}
+
+/* Header Setup */
+
+.header {
+    padding: 0px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: "Q-Regular";
+    font-size: 64px;
+}
+
+.header p {
+    font-family: "Q-Light";
+    font-size: 32px;
+}
+
+/* Top Navigation Setup */
+
+.navigation {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+.navigation a {
+    font-family: "Q-Regular";
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    background-color: white;
+    font-family: "Q-Bold";
+    color: black;
+}
+
+/* Row Setup */
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Left Column Setup */
+
+.leftColumn {
+    float: left;
+    width: 74.5%;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 16px;
+    border-style: solid;
+    border-color: white;
+    padding: 16px;
+    margin-top: 16px;
+    margin-right: 0.5%;
+}
+
+/* Right Column Setup */
+
+.rightColumn {
+    float: left;
+    width: 24.5%;
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 16px;
+    border-style: solid;
+    border-color: white;
+    padding: 16px;
+    margin-top: 16px;
+    margin-left: 0.5%;
+}
+
+/* Card Setup */
+
+.card {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 16px;
+    padding: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.card a {
+    font-family: "Q-Regular";
+    color: white;
+    text-decoration: none;
+}
+
+/* Footer Setup */
+
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 16px;
+}
+
+footer a {
+    font-family: "Q-Regular";
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: white;
+    border-radius: 8px;
+    font-family: "Q-Bold";
+    color: black;
+}

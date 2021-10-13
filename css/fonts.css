@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Q-Light";
+    src: url("../fonts/Quicksand/Quicksand-Light.ttf")
+}
+
+@font-face {
+    font-family: "Q-Medium";
+    src: url("../fonts/Quicksand/Quicksand-Medium.ttf")
+}
+
+@font-face {
+    font-family: "Q-Regular";
+    src: url("../fonts/Quicksand/Quicksand-Regular.ttf")
+}
+
+@font-face {
+    font-family: "Q-Semi";
+    src: url("../fonts/Quicksand/Quicksand-SemiBold.ttf")
+}
+
+@font-face {
+    font-family: "Q-Bold";
+    src: url("../fonts/Quicksand/Quicksand-Bold.ttf")
+}
+
+@font-face {
+    font-family: "FredokaOne";
+    src: url("../fonts/FredokaOne/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "LilitaOne";
+    src: url("../fonts/LilitaOne/LilitaOne-Regular.ttf");
+}
