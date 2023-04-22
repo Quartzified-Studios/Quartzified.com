@@ -1,5 +1,5 @@
 /* Import Font CSS */
-@import "fonts.css";
+@import "../utility/fonts.css";
 
 /* Update All */
 
@@ -14,7 +14,8 @@ body {
     padding: 12px;
     color: white;
 
-    background-color: black;
+
+background-color:black;
 }
 
 /* Header Setup */
@@ -60,90 +61,77 @@ body {
     color: black;
 }
 
-/* Row Setup */
+/* Center Setup */
 
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
+.showcase {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 90%;
+    max-height: 80%;
 }
 
-/* Left Column Setup */
+/* Phrase Setup */
 
-.column {
-    float: left;
-    background-color: rgba(0, 0, 0, 0.35);
-    border-radius: 16px;
-    border-style: solid;
-    border-color: white;
-    padding: 16px;
-    margin-top: 16px;
-    margin-right: 0.5%;
-}
+.phraser {
+    position: fixed;
 
+    left: 0;
+    bottom: 0;
 
-/* Card Setup */
-
-.card {
-    background-color: rgba(0, 0, 0, 0.35);
-    display: inline-block;
-    border-radius: 16px;
-    padding: 16px;
-    margin: 8px;
     width: 100%;
-    border-style: solid;
-    border-color: rgba(255, 255, 255, 0.5);
-    color: white;
+    margin-bottom: 3vh;
+
+
+    text-align: center;
 }
 
-.card img {
-    float: left;
-    width: 256px;
-    height: 256px;
-    padding-bottom: 8px;
-}
-
-.card .info {
-padding-left: 272px;
-}
-
-.card h2 {
-    font-size: 32px;
-}
-
-.card p {
-    font-size: 18px;
-}
-
-.card a {
-    font-family: "Q-Regular";
-    overflow: hidden;
-    color: white;
-    text-decoration: none;
+.phraser p 
+{
+    font-family: "Q-Bold";
+    font-size: 3vw;
 }
 
 /* Footer Setup */
 
 footer {
+    position: fixed;
+
+    left: 8;
+    right: 8;
+    bottom: 8;
+
+    width: 100%;
+
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    margin-top: 16px;
 }
 
 footer a {
-    font-family: "Q-Regular";
+    font-family: "Q-Light";
     float: left;
     display: block;
     color: white;
+    margin-right: 16px;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
-footer a:hover {
+footer .rightSide
+{
+    float: right;
+}
+
+footer a:hover
+{
+    border-radius: 2px;
+
+    padding-left: 3px;
+    padding-right: 3px;
+
     background-color: white;
-    border-radius: 8px;
     font-family: "Q-Bold";
     color: black;
 }
